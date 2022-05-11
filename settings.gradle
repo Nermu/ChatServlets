@@ -1,0 +1,4 @@
+rootProject.name = 'GradleProject'
+include 'src:main:webapp'
+findProject(':src:main:webapp')?.name = 'webapp'
+
